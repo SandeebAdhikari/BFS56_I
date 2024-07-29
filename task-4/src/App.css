@@ -1,0 +1,96 @@
+.navigator {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  background-color: aqua;
+  color: black;
+}
+
+.logo-text {
+  font-size: 2rem;
+  color: black;
+}
+
+.nav_links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.nav_a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.about-me {
+  position: relative;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.heading1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.heading2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.paragraph1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.experience {
+  position: relative;
+  padding: 10px;
+  background-color: aliceblue;
+  height: 30vh;
+}
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+.sidebar {
+  float: right;
+  width: 10%;
+  background-color: aliceblue;
+  padding-right: 10px;
+}
+
+.heading3 {
+  text-align: center;
+}
+
+.paragraph2 {
+  text-align: center;
+}
+
+.footer {
+  height: 26vh;
+  background-color: aqua;
+  padding: 20px;
+}
+
+.foot-navigator {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  background-color: aqua;
+  color: black;
+}
+
+.nav-links-container {
+  align-items: center;
+}
