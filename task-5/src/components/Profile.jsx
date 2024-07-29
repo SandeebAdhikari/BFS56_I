@@ -1,5 +1,20 @@
+import ProfileImg from "../assets/profile-pic.png";
+import Button from "./Button";
+import ResumePDF from "../assets/Sandeeb_Resume.pdf";
+
 function Profile() {
-  return <div>Profile</div>;
+  return (
+    <div className="profile">
+      <div className="profile-pic">
+        <img src={ProfileImg} alt="Profile" />
+      </div>
+      <div className="profile-info">
+        <h2 className="name">Sandeeb Adhikari</h2>
+        <p className="text_p2">Web Development</p>
+      </div>
+      <Button />
+    </div>
+  );
 }
 
 export default Profile;

@@ -1,15 +1,58 @@
 .header {
-  background-color: #282c34;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  font-family: sans-serif;
 }
 
-.website {
-  position: absolute;
-  transform: -50%, -50%;
+.logo-pic {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+.profile-pic {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+.profile-info {
+  align-self: center;
+  text-align: center;
+}
+
+.name {
+  font-size: 3rem;
+  text-align: center;
+}
+.text_p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+.para_p1 {
+  font-size: 1.5rem;
+  text-align: center;
 }
