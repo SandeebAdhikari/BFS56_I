@@ -34,6 +34,7 @@
 .profile-info {
   align-self: center;
   text-align: center;
+  font-family: sans-serif;
 }
 
 .name {
@@ -59,4 +60,9 @@
 .para_p1 {
   font-size: 1.5rem;
   text-align: center;
+  font-family: sans-serif;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }

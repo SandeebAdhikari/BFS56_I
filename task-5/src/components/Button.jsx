@@ -4,7 +4,7 @@ import GitHubImg from "../assets/github.png";
 //<Button resume="Resume" linkedin="LinkedIn" github="GitHub" />
 function Button() {
   return (
-    <div>
+    <div className="gap-2">
       <img
         src={LinkedInImg}
         alt="Linkedin Profile"
