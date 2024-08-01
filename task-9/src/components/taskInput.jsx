@@ -24,7 +24,7 @@ function TaskInput({ onAddTask }) {
       />
       <button
         onClick={handleAddTask}
-        className="btn btn-ghost border border-neutral-600 rounded-lg p-2 "
+        className="btn btn-ghost border border-neutral-600 rounded-lg p-2"
       >
         Add Task
       </button>
