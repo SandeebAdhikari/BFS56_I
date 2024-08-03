@@ -1,50 +1,28 @@
-function about() {
+import Kids from "../assets/kids.jpg";
+import { TbCircleArrowRightFilled } from "react-icons/tb";
+
+function About() {
   return (
-    <div className="carousel glass rounded-box w-96">
-      <div className="carousel-item w-1/2">
+    <div>
+      <div className="relative p-4 md:p-20">
         <img
-          src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-          className="w-full"
+          src={Kids}
+          alt="Orphan Kids"
+          className="rounded-3xl w-full shadow-2xl shadow-emerald-900 opacity-80"
         />
-      </div>
-      <div className="carousel-item w-1/2">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-          className="w-full"
-        />
-      </div>
-      <div className="carousel-item w-1/2">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-          className="w-full"
-        />
-      </div>
-      <div className="carousel-item w-1/2">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-          className="w-full"
-        />
-      </div>
-      <div className="carousel-item w-1/2">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
-          className="w-full"
-        />
-      </div>
-      <div className="carousel-item w-1/2">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
-          className="w-full"
-        />
-      </div>
-      <div className="carousel-item w-1/2">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-          className="w-full"
-        />
+        <div className="absolute inset-0 flex flex-col gap-4 md:gap-10 items-center justify-center">
+          <h1 className="text-2xl md:text-5xl font-bold text-white text-center">
+            Every Child Deserves a Chance: Support Their Journey!
+          </h1>
+          <button className="btn btn-ghost border border-white w-40 md:w-80 text-lg md:text-xl text-white">
+            DONATE
+            <TbCircleArrowRightFilled />
+          </button>
+        </div>
+        <hr className="mt-10 md:mt-20" />
       </div>
     </div>
   );
 }
 
-export default about;
+export default About;
